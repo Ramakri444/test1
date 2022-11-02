@@ -56,15 +56,7 @@ object obj {
 		
 		condata.foreach(println)
 		
-		val mpsp = liststr.map(x=>x.split("-"))
-		
-		val valu = mpsp.map(x=> (x(2),1))
-		
-		val group = sc.parallelize(valu).reduceByKey(_+_)
-		
-		
-		
-		group.foreach(println)
+
 	
 		
 
