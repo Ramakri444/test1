@@ -55,7 +55,8 @@ object obj {
 		val condata = repstr.map(x=>x.concat(",Done"))
 		
 		condata.foreach(println)
-		
+	  
+		println("===== completed ======")
 
 		
 
